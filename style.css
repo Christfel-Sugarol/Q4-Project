@@ -1,0 +1,94 @@
+header {
+    background-color: #4169E1;
+    height: 120px;
+    width: 90vw;
+    position: sticky;
+    margin: auto;
+    border: #8C8DB9 solid 5px;
+    z-index: 3;
+    top:0px;
+    color:white;
+    font-weight: bold;
+}
+
+body {
+    background-color: #F9F8FF;
+    height: 2100px;
+}
+
+#firstPage {
+    background-image: url(images/background.png);
+    height: 1007px;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    font-family: "Thirsty Script Bold";
+    color: #6583FF;
+    font-size: 130px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+#fLine {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+}
+
+#sLine {
+    position: absolute;
+    top: 500px;
+    right: 80px
+}
+
+#secondPage {
+    position: absolute;
+    top: 1280px;
+    width: 100vw;
+}
+
+form {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: fit-content;
+}
+
+.req {
+    color: red;
+}
+
+.reqMessage {
+    color:red;
+    position: relative;
+    left:7px;
+    font-weight: bold;
+    opacity: 0;
+
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+}
+
+#img1 {
+    position: relative;
+    top: 10%;
+    left: 1%;
+    height: 80%
+}
+
+#img2 {
+    position: absolute;
+    top: 10%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: -23px;
+    height: 150%
+}
+
+
+
