@@ -24,10 +24,8 @@ body {
     top: 0px;
     z-index: 1;
     font-family: "Thirsty Script Bold";
-    color: #6583FF;
+    color: white;
     font-size: 130px;
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: black;
 }
 
 #fLine {
@@ -88,6 +86,11 @@ form {
     right: 0;
     top: -23px;
     height: 150%
+}
+
+@font-face {
+    font-family: "Thirsty Script Bold";
+    src: url("ThirstyScriptExtraBold.otf") format("opentype");
 }
 
 
